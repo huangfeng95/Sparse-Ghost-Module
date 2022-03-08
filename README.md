@@ -8,7 +8,7 @@ the underwater dataset and mixghost module
 <details>
 <summary>Installation</summary>
 
-Step1. Install YOLOX from source.[^1]
+Install YOLOX from source.[^1]
 ```shell
 git clone git@github.com:Megvii-BaseDetection/YOLOX.git
 cd YOLOX
@@ -20,9 +20,17 @@ pip3 install -v -e .  # or  python3 setup.py develop
 <details>
 <summary>Add modules</summary>
 
-Step2. Add MixGhost module and MixGhost-pafpn.
-* Copy files [network_mixghost_blocks.py](YOLOX/yolox/models/network_mixghost_blocks.py) and [yolo_mixghost_pafpn.py](YOLOX/yolox/models/yolo_mixghost_pafpn.py) under the directory `YOLOX/yolox/model`.
+Add MixGhost module and MixGhost-pafpn.
+* Copy files [network_mixghost_blocks.py](YOLOX/yolox/models/network_mixghost_blocks.py) and [yolo_mixghost_pafpn.py](YOLOX/yolox/models/yolo_mixghost_pafpn.py) to the directory `YOLOX/yolox/model`.
 * Add `from .yolo_mixghost_pafpn import YOLOMIXGHOSTPAFPN` to `YOLOX/yolox/model/__init__.py`.
+<div align="center"><img src="assets/YOLOX-MIXGHOST.png" width="350"></div>
+</details>
+
+<details>
+<summary>Call module</summary>
+
+Call MixGhost-pafpn in **yolox_base.py**.
+* Add `from yolox.models import YOLOMIXGHOSTPAFPN` to `YOLOX/yolox/exp/yolox_base.py`, call `YOLOMIXGHOSTPAFPN` by `backbone = YOLOMIXGHOSTPAFPN(self.depth, self.width, in_channels=in_channels, act=self.act)`.
 <div align="center"><img src="assets/YOLOX-MIXGHOST.png" width="350"></div>
 </details>
 
