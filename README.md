@@ -34,4 +34,14 @@ Call MixGhost-pafpn in **yolox_base.py**.
 <div align="center"><img src="assets/YOLOX-MIXGHOST-GETMODEL.png" width="350"></div>
 </details>
 
+<details>
+<summary>More action</summary>
+
+More actions could be get from YOLOX's tutorial.[^2]
+* [Quick run](https://github.com/Megvii-BaseDetection/YOLOX/blob/main/docs/quick_run.md)
+* [Train custom data](https://github.com/Megvii-BaseDetection/YOLOX/blob/main/docs/train_custom_data.md)
+* [Manipulating training image size](https://github.com/Megvii-BaseDetection/YOLOX/blob/main/docs/manipulate_training_image_size.md)
+* [Freezing model](https://github.com/Megvii-BaseDetection/YOLOX/blob/main/docs/freeze_module.md)
+
 [^1]: We have experimented on release 0.2.0, if compatibility problems are found during use, you could get source code from [YOLOX release 0.2.0](https://github.com/Megvii-BaseDetection/YOLOX/releases/tag/0.2.0)
+[^2]: The main directory of YOLOX tutorials is [YOLOX release](https://github.com/Megvii-BaseDetection/YOLOX/tree/main/docs)
