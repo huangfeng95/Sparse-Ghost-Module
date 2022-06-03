@@ -417,7 +417,7 @@ class SparseGhostConv(nn.Module):
                       bias=False, groups=c1
                       ),
             nn.BatchNorm2d(c1),
-            nn.ELU() if act is True else (act if isinstance(act, nn.Module) else nn.Identity()),
+            nn.SiLU() if act is True else (act if isinstance(act, nn.Module) else nn.Identity()),
             nn.Conv2d(c1, c_,
                       (1, k),
                       (1, s),
@@ -425,7 +425,7 @@ class SparseGhostConv(nn.Module):
                       bias=False, groups=1
                       ),
             nn.BatchNorm2d(c_),
-            nn.ELU() if act is True else (act if isinstance(act, nn.Module) else nn.Identity())
+            nn.SiLU() if act is True else (act if isinstance(act, nn.Module) else nn.Identity())
         )
         self.cv2 = nn.Sequential(
             nn.Conv2d(c_, c_, 
@@ -435,15 +435,15 @@ class SparseGhostConv(nn.Module):
                 bias=False, groups=1
             ),
             nn.BatchNorm2d(c_),
-            nn.ELU(inplace=False) if act is True else (act if isinstance(act, nn.Module) else nn.Identity()),
+            nn.SiLU(inplace=False) if act is True else (act if isinstance(act, nn.Module) else nn.Identity()),
             nn.Conv2d(c_, 3*c_,
-                (1, 7),
+                (1, 5),
                 (1, 1),
-                (0, (7)//2),
+                (0, (5)//2),
                 bias=False, groups=c_
             ),
             nn.BatchNorm2d(3*c_),
-            nn.ELU(inplace=False) if act is True else (act if isinstance(act, nn.Module) else nn.Identity())
+            nn.SiLU(inplace=False) if act is True else (act if isinstance(act, nn.Module) else nn.Identity())
         )
 
     def forward(self, x):
