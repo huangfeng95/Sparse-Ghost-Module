@@ -1,9 +1,9 @@
-# underwater-mixghost
-the underwater dataset and mixghost module
+# underwater-sparseghost
+the underwater organism dataset and sparseghost module
 
 ## How to start
 
-### YOLOX-MixGhost
+### YOLOX-SparseGhost
 
 <details>
 <summary>Installation</summary>
@@ -20,7 +20,7 @@ pip3 install -v -e .  # or  python3 setup.py develop
 <details>
 <summary>Add modules</summary>
 
-Add MixGhost module and MixGhost-pafpn.
+Add SparseGhost Module and SparseGhost-pafpn.
 * Copy files [network_mixghost_blocks.py](YOLOX/yolox/models/network_mixghost_blocks.py) and [yolo_mixghost_pafpn.py](YOLOX/yolox/models/yolo_mixghost_pafpn.py) to the directory `YOLOX/yolox/model`.
 * Add `from .yolo_mixghost_pafpn import YOLOMIXGHOSTPAFPN` to `YOLOX/yolox/model/__init__.py`.
 <div align="center"><img src="assets/YOLOX-MIXGHOST-INIT.png" width="350"></div>
