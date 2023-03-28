@@ -10,7 +10,7 @@ Sparse Ghost Module-related function were listed in Sparse Ghost Module.py (in [
 <div align="center">
       <img src="img/edit.png">  
 </div>
-- Write network configuration yaml files based on your needs, or simply use [yolov5l-sparseghost](https://github.com/huangfeng95/Sparse-Ghost-Module/blob/main/yolov5l-sparseghost.yaml).
+- Write network configuration yaml files based on your needs, or simply use [yolov5l-sparseghost.yaml](https://github.com/huangfeng95/Sparse-Ghost-Module/blob/main/yolov5l-sparseghost.yaml).
 
 - Refer to the [YOLOv5's tutorial](https://docs.ultralytics.com/yolov5/) tutorial for experiments.
 ## MKUO
