@@ -1,7 +1,7 @@
 ## Sparse Ghost Module: A Lightweight Module Designed for the Object Detection Networks
 Sparse Ghost Module-related function were listed in Sparse Ghost Module.py (in [YOLOv5](https://github.com/ultralytics/yolov5) format).
 
-## Prerequisites and Run
+### Prerequisites and Run
 - Clone and install according to the document of [YOLOv5](https://github.com/ultralytics/yolov5).
 
 - Add the module functions in [Sparse Ghost Module.py](https://github.com/huangfeng95/Sparse-Ghost-Module/blob/main/Sparse%20Ghost%20Module.py) to your local [common.py](https://github.com/ultralytics/yolov5/blob/master/models/common.py) or [experiencel.py](https://github.com/ultralytics/yolov5/blob/master/models/experimental.py).
