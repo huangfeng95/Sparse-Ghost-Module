@@ -16,13 +16,13 @@ Sparse Ghost Module-related function were listed in Sparse Ghost Module.py (in [
 
 - Refer to the [YOLOv5's tutorial](https://docs.ultralytics.com/yolov5/) for experiments.
 
-## MKUO dataset
+## the Multiple Kinds of Underwater Organisms (MKUO) dataset
 
 <div align="center">
       <img src="img/dataset samples.png">  
 </div>
 
-link: https://pan.baidu.com/s/1f8Dvh7z73PEbFA6DKwRdQw?pwd=3ub6 passcode: 3ub6
+link: https://pan.baidu.com/s/1f8Dvh7z73PEbFA6DKwRdQw?pwd=3ub6 (extract code: 3ub6)
 
 ### Acknowledgements
 - The authors of [YOLOv5](https://github.com/ultralytics/yolov5)
