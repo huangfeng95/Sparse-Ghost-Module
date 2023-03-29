@@ -15,5 +15,6 @@ Sparse Ghost Module-related function were listed in Sparse Ghost Module.py (in [
 - Write network configuration yaml files based on your needs, or simply use [yolov5l-sparseghost.yaml](https://github.com/huangfeng95/Sparse-Ghost-Module/blob/main/yolov5l-sparseghost.yaml).
 
 - Refer to the [YOLOv5's tutorial](https://docs.ultralytics.com/yolov5/) tutorial for experiments.
-## MKUO
+
+## MKUO dataset
 链接: https://pan.baidu.com/s/1f8Dvh7z73PEbFA6DKwRdQw?pwd=3ub6 提取码: 3ub6
