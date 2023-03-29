@@ -18,6 +18,10 @@ Sparse Ghost Module-related function were listed in Sparse Ghost Module.py (in [
 
 ## MKUO dataset
 <div align="center">
-      <img src="img/edit.png">  
+      <img src="img/dataset samples.png">  
 </div>
-链接: https://pan.baidu.com/s/1f8Dvh7z73PEbFA6DKwRdQw?pwd=3ub6 提取码: 3ub6
+link: https://pan.baidu.com/s/1f8Dvh7z73PEbFA6DKwRdQw?pwd=3ub6 passcode: 3ub6
+
+### Acknowledgements
+- The authors of [YOLOv5](https://github.com/ultralytics/yolov5)
+- The authors of [GhostNet](https://github.com/huawei-noah/Efficient-AI-Backbones)
