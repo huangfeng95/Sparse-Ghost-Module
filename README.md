@@ -22,8 +22,9 @@ Sparse Ghost Module-related function were listed in Sparse Ghost Module.py (in [
       <img src="img/dataset samples.png">  
 </div>
 
-link: https://pan.baidu.com/s/1f8Dvh7z73PEbFA6DKwRdQw?pwd=3ub6 (extract code: 3ub6)
-link: https://drive.google.com/drive/folders/1v5zWphJywkeykOxG7Tod_yoV0Cn1z_I8?usp=drive_link
+link of [百度网盘]: https://pan.baidu.com/s/1f8Dvh7z73PEbFA6DKwRdQw?pwd=3ub6 (extract code: 3ub6)
+
+link of [google drive]: https://drive.google.com/drive/folders/1v5zWphJywkeykOxG7Tod_yoV0Cn1z_I8?usp=drive_link
 
 ### Acknowledgements
 - The authors of [YOLOv5](https://github.com/ultralytics/yolov5)
